@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* fallback for old browsers */
+    background: #005C97;
+background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-family:Montserrat;
+    color:#F5F5F5 ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 26px;
+
+}
+p{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.search{
+
+    width:50%;
+    height: 100%;
+    margin: 30px auto;
+    color: black;
+    box-shadow: 5px 5px 10px #00000045;
+    opacity: 0.8;
+    
+    
+    
+}
+
+.weather{
+    
+    
+    width: 50%;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 20px 20px;
+
+}
+
+.subinfo{
+    display: flex;
+    justify-content:center  ;
+}
+
+.subinfo p{
+    text-align: center;
+    
+}
+
+.daily{
+    
+    width: 50%;
+    
+}
+
+.daily img{
+    width: 50px;
+    height: 50px;
+}
+
+.forecastDetails{
+    border-radius: 5px;
+    margin: 10px auto;
+    background-color: #f5f5f514;
+    box-shadow: 5px 5px 10px #00000045;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+/* .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} */
+
+@media screen and (max-width: 800px) {
+    .search {
+        width:100%;
+        
+    }
+    .weather{
+        width:100%;
+        
+    }
+    .daily{
+        width: 100%;
+    }
+    p{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 16px;
+    }
+  }
